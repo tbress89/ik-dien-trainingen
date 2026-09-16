@@ -11,31 +11,33 @@ Een club-gebrandmerkte database van voetbaltraining oefeningen, gebaseerd op het
 
 ```
 ik-dien-trainingen/
-├── dashboard/           # Web dashboard (statisch HTML/CSS/JS)
+├── oefeningen/          # Web applicatie (statisch HTML/CSS/JS)
 │   ├── index.html       # Hoofdpagina
 │   ├── style.css        # Ik Dien paars thema
-│   └── app.js           # Zoek- en filterlogica
+│   ├── app.js           # Zoek- en filterlogica
+│   ├── ikdien-logo-wit.png # Clublogo
+│   └── robots.txt       # Anti-crawler configuratie
 ├── data/                # Oefeningen database
-│   ├── exercises.json   # Gescrapete oefeningen (na het runnen van de scraper)
+│   ├── exercises.json   # Gescrapete oefeningen (40 KNVB oefeningen)
 │   ├── exercises-data.js # JavaScript dataset voor directe file:// weergave
-│   └── sample-exercises.json  # 20 voorbeeldoefeningen
-├── scraper/             # KNVB Rinus scraper
+│   └── sample-exercises.json  # Backup dataset
+├── scraper/             # KNVB Rinus spider scraper
 │   ├── package.json
-│   └── scrape.js        # Playwright-gebaseerde scraper
+│   └── scrape.js        # Playwright scraper
 └── README.md
 ```
 
 ## 🚀 Snel Starten
 
-### Dashboard Bekijken (met voorbeelddata)
+### Oefeningen Bekijken
 
-Open gewoon `dashboard/index.html` in je browser — geen server nodig!
+Open gewoon `oefeningen/index.html` in je browser — geen server nodig!
 
 ```bash
-open dashboard/index.html
+open oefeningen/index.html
 ```
 
-Het dashboard laadt automatisch de 20 voorbeeldoefeningen uit `data/sample-exercises.json`.
+De app laadt automatisch de complete dataset uit `data/exercises-data.js`.
 
 ### Oefeningen Scrapen van KNVB Rinus
 
