@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let activeFilters = {
         phase: 'Alle',
         type: 'Alle',
-        difficulty: 'Alle',
         age: 'Alle'
     };
     let searchQuery = '';
@@ -20,10 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'Tactical': 'Tactisch',
         'Physical': 'Fysiek',
         'Goalkeeper': 'Keeper',
-        'Small-Sided Game': 'Partijvorm',
-        'Beginner': 'Beginner',
-        'Intermediate': 'Gemiddeld',
-        'Advanced': 'Gevorderd'
+        'Small-Sided Game': 'Partijvorm'
     };
 
     function translateTag(tag) {
@@ -34,7 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('searchInput');
     const filterPhase = document.getElementById('filter-phase');
     const filterType = document.getElementById('filter-type');
-    const filterDifficulty = document.getElementById('filter-difficulty');
     const filterAge = document.getElementById('filter-age');
     const exerciseGrid = document.getElementById('exerciseGrid');
     const resultsCount = document.getElementById('resultsCount');
@@ -102,7 +97,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const filterElements = {
         phase: filterPhase,
         type: filterType,
-        difficulty: filterDifficulty,
         age: filterAge
     };
 
@@ -136,7 +130,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const filterLabels = {
             phase: 'Fase',
             type: 'Type',
-            difficulty: 'Niveau',
             age: 'Leeftijd'
         };
 
@@ -189,13 +182,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const typeMatch = activeFilters.type === 'Alle' || 
                 (exercise.tags && exercise.tags.drillType === activeFilters.type);
             
-            const difficultyMatch = activeFilters.difficulty === 'Alle' || 
-                (exercise.tags && exercise.tags.difficultyLevel === activeFilters.difficulty);
-            
             const ageMatch = activeFilters.age === 'Alle' || 
                 (exercise.ageGroup && exercise.ageGroup.includes(activeFilters.age));
 
-            return searchMatch && phaseMatch && typeMatch && difficultyMatch && ageMatch;
+            return searchMatch && phaseMatch && typeMatch && ageMatch;
         });
 
         // Update UI
@@ -235,7 +225,6 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="card-tags">
                 ${exercise.tags.phaseOfPlay ? `<span class="tag">${translateTag(exercise.tags.phaseOfPlay)}</span>` : ''}
                 ${exercise.tags.drillType ? `<span class="tag">${translateTag(exercise.tags.drillType)}</span>` : ''}
-                ${exercise.tags.difficultyLevel ? `<span class="tag">${translateTag(exercise.tags.difficultyLevel)}</span>` : ''}
             </div>
         ` : '';
 
@@ -301,7 +290,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="modal-tags">
                     ${exercise.tags && exercise.tags.phaseOfPlay ? `<span class="tag">${translateTag(exercise.tags.phaseOfPlay)}</span>` : ''}
                     ${exercise.tags && exercise.tags.drillType ? `<span class="tag">${translateTag(exercise.tags.drillType)}</span>` : ''}
-                    ${exercise.tags && exercise.tags.difficultyLevel ? `<span class="tag">${translateTag(exercise.tags.difficultyLevel)}</span>` : ''}
                     ${exercise.ageGroup ? exercise.ageGroup.map(age => `<span class="tag" style="background:#ddd;color:#333;">${age}</span>`).join('') : ''}
                 </div>
 
