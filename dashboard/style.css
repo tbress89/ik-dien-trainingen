@@ -52,6 +52,14 @@ body {
     gap: 1rem;
 }
 
+.app-logo {
+    height: 52px;
+    width: auto;
+    max-width: 60px;
+    object-fit: contain;
+    display: block;
+}
+
 .header-titles h1 {
     font-size: 1.75rem;
     font-weight: 700;
