@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ik Dien - Trainingen Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="header-container">
+            <div class="logo-container">
+                <svg width="48" height="48" viewBox="0 0 100 100" class="logo-svg">
+                    <path d="M50 5 L10 25 L10 60 C10 80 40 95 50 95 C60 95 90 80 90 60 L90 25 Z" fill="none" stroke="#FFFFFF" stroke-width="6"/>
+                    <text x="50" y="65" font-family="Arial, sans-serif" font-weight="bold" font-size="36" fill="#FFFFFF" text-anchor="middle">ID</text>
+                </svg>
+                <div class="header-titles">
+                    <h1>Ik Dien</h1>
+                    <p>Trainingen Database</p>
+                </div>
+            </div>
+            
+            <div class="search-container">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <input type="text" id="searchInput" placeholder="Zoek oefening...">
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <button class="mobile-filter-toggle" id="mobileFilterToggle">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+            </svg>
+            Filters
+        </button>
+
+        <section class="filter-panel" id="filterPanel">
+            <div class="filter-group">
+                <label for="filter-phase">Speelfase</label>
+                <select id="filter-phase">
+                    <option value="Alle">Alle</option>
+                    <option value="Attacking">Aanvallen</option>
+                    <option value="Defending">Verdedigen</option>
+                    <option value="Transition to Attack">Omschakelen naar aanval</option>
+                    <option value="Transition to Defense">Omschakelen naar verdediging</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="filter-type">Type oefening</label>
+                <select id="filter-type">
+                    <option value="Alle">Alle</option>
+                    <option value="Warm-up">Warming-up</option>
+                    <option value="Technical">Technisch</option>
+                    <option value="Tactical">Tactisch</option>
+                    <option value="Physical">Fysiek</option>
+                    <option value="Goalkeeper">Keeper</option>
+                    <option value="Small-Sided Game">Partijvorm</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="filter-difficulty">Niveau</label>
+                <select id="filter-difficulty">
+                    <option value="Alle">Alle</option>
+                    <option value="Beginner">Beginner</option>
+                    <option value="Intermediate">Gemiddeld</option>
+                    <option value="Advanced">Gevorderd</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="filter-age">Leeftijd</label>
+                <select id="filter-age">
+                    <option value="Alle">Alle</option>
+                    <option value="O8">O8</option>
+                    <option value="O10">O10</option>
+                    <option value="O12">O12</option>
+                    <option value="O14">O14</option>
+                    <option value="O16">O16</option>
+                    <option value="O19">O19</option>
+                    <option value="Senioren">Senioren</option>
+                </select>
+            </div>
+        </section>
+
+        <div class="active-filters" id="activeFilters">
+            <!-- Active filter pills will be inserted here -->
+        </div>
+
+        <div class="results-header">
+            <h2 id="resultsCount">0 oefeningen gevonden</h2>
+        </div>
+
+        <div class="loading-state" id="loadingState">
+            Laden...
+        </div>
+
+        <div class="empty-state" id="emptyState" style="display: none;">
+            Geen oefeningen gevonden. Probeer een andere zoekterm of pas de filters aan.
+        </div>
+
+        <div class="exercise-grid" id="exerciseGrid">
+            <!-- Cards will be inserted here -->
+        </div>
+    </main>
+
+    <!-- Modal Overlay -->
+    <div class="modal-overlay" id="exerciseModal" style="display: none;">
+        <div class="modal-container">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-content" id="modalContent">
+                <!-- Modal details will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="../data/exercises-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

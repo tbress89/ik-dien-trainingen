@@ -1,0 +1,13 @@
+{
+  "name": "ik-dien-rinus-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for KNVB Rinus training exercises using Playwright",
+  "main": "scrape.js",
+  "scripts": {
+    "scrape": "node scrape.js",
+    "scrape:headed": "HEADED=true node scrape.js"
+  },
+  "dependencies": {
+    "playwright": "^1.45.0"
+  }
+}
