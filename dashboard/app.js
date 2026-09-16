@@ -3,8 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let exercises = [];
     let activeFilters = {
         phase: 'Alle',
-        type: 'Alle',
-        age: 'Alle'
+        type: 'Alle'
     };
     let searchQuery = '';
 
@@ -30,7 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('searchInput');
     const filterPhase = document.getElementById('filter-phase');
     const filterType = document.getElementById('filter-type');
-    const filterAge = document.getElementById('filter-age');
     const exerciseGrid = document.getElementById('exerciseGrid');
     const resultsCount = document.getElementById('resultsCount');
     const activeFiltersContainer = document.getElementById('activeFilters');
@@ -96,8 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const filterElements = {
         phase: filterPhase,
-        type: filterType,
-        age: filterAge
+        type: filterType
     };
 
     Object.entries(filterElements).forEach(([key, element]) => {
@@ -129,8 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         const filterLabels = {
             phase: 'Fase',
-            type: 'Type',
-            age: 'Leeftijd'
+            type: 'Type'
         };
 
         Object.entries(activeFilters).forEach(([key, value]) => {
@@ -181,11 +177,8 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const typeMatch = activeFilters.type === 'Alle' || 
                 (exercise.tags && exercise.tags.drillType === activeFilters.type);
-            
-            const ageMatch = activeFilters.age === 'Alle' || 
-                (exercise.ageGroup && exercise.ageGroup.includes(activeFilters.age));
 
-            return searchMatch && phaseMatch && typeMatch && ageMatch;
+            return searchMatch && phaseMatch && typeMatch;
         });
 
         // Update UI
@@ -228,11 +221,6 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         ` : '';
 
-        const minP = exercise.playerCount ? exercise.playerCount.min : '-';
-        const maxP = exercise.playerCount ? exercise.playerCount.max : '-';
-        const dur = exercise.durationMinutes || '-';
-        const age = exercise.ageGroup ? (exercise.ageGroup.length > 2 ? exercise.ageGroup[0] + ' - ' + exercise.ageGroup[exercise.ageGroup.length-1] : exercise.ageGroup.join(', ')) : '-';
-
         return `
             <article class="exercise-card" data-id="${exercise.id}">
                 ${imageHTML}
@@ -240,20 +228,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h3 class="card-title">${exercise.title || 'Zonder titel'}</h3>
                     <p class="card-objective">${exercise.objective || 'Geen doelstelling opgegeven'}</p>
                     ${tagsHTML}
-                    <div class="card-footer">
-                        <div class="footer-item">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                            ${minP}-${maxP} pl.
-                        </div>
-                        <div class="footer-item">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                            ${dur} min
-                        </div>
-                        <div class="footer-item">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-                            ${age}
-                        </div>
-                    </div>
                 </div>
             </article>
         `;
