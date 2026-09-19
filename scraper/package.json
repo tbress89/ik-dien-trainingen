@@ -5,7 +5,8 @@
   "main": "scrape.js",
   "scripts": {
     "scrape": "node scrape.js",
-    "scrape:headed": "HEADED=true node scrape.js"
+    "scrape:headed": "HEADED=true node scrape.js",
+    "dedupe": "node dedupe-exercises.js"
   },
   "dependencies": {
     "playwright": "^1.45.0"

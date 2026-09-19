@@ -18,10 +18,13 @@ ik-dien-trainingen/
 │   ├── ikdien-logo-wit.png # Clublogo
 │   └── robots.txt       # Anti-crawler configuratie
 ├── data/                # Oefeningen database
-│   ├── exercises.json   # Gescrapete oefeningen (40 KNVB oefeningen)
+│   ├── exercises.json   # Onbewerkte gescrapete dataset (raw KNVB export)
+│   ├── exercises-deduped.json # Deduplicated exercise export (106 unieke oefeningen)
 │   ├── exercises-data.js # JavaScript dataset voor directe file:// weergave
-│   └── sample-exercises.json  # Backup dataset
+│   ├── sample-exercises.json  # Backup dataset
+│   └── dedupe-report.json    # Rapport met duplicate clusters en verwijderingen
 ├── scraper/             # KNVB Rinus spider scraper
+│   ├── dedupe-exercises.js # Deduplicatie- en merge-logica
 │   ├── package.json
 │   └── scrape.js        # Playwright scraper
 └── README.md
@@ -37,7 +40,17 @@ Open gewoon `oefeningen/index.html` in je browser — geen server nodig!
 open oefeningen/index.html
 ```
 
-De app laadt automatisch de complete dataset uit `data/exercises-data.js`.
+De app laadt automatisch de gededupliceerde dataset uit `data/exercises-data.js`.
+
+### Oefeningen dedupliceren
+
+Gebruik de dedupe-script om dubbele of bijna-duplicate oefeningen te verwijderen voordat je de dataset in de app laadt:
+
+```bash
+node scraper/dedupe-exercises.js
+```
+
+De script leest de onbewerkte `data/exercises.json`, verwijdert exacte duplicaten op basis van genormaliseerde titels en schrijft een schone dataset naar `data/exercises-deduped.json` plus `data/exercises-data.js`.
 
 ### Oefeningen Scrapen van KNVB Rinus
 
@@ -68,7 +81,7 @@ De app laadt automatisch de complete dataset uit `data/exercises-data.js`.
    MAX_EXERCISES=10 npm run scrape
    ```
 
-De scraper slaat de resultaten op in `data/exercises.json`.
+De scraper slaat de ruwe resultaten op in `data/exercises.json`. De dedupe-script maakt daarna een schonere `data/exercises-deduped.json`.
 
 ### Dashboard koppelen aan gescrapete data
 

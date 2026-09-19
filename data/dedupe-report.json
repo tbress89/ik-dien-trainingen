@@ -1,0 +1,240 @@
+{
+  "originalCount": 140,
+  "deduplicatedCount": 106,
+  "duplicateEntriesRemoved": 34,
+  "exactDuplicateGroups": 28,
+  "nearDuplicateGroups": 0,
+  "exactMatches": [
+    {
+      "primaryId": "rinus-40303",
+      "primaryTitle": "3 tegen 3 lijnvoetbal",
+      "duplicateIds": [
+        "rinus-339147",
+        "rinus-1241265"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-38507",
+      "primaryTitle": "5 tegen 2 positiespel (smal veld)",
+      "duplicateIds": [
+        "rinus-38493"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-342460",
+      "primaryTitle": "3+k tegen 3 + 1 neutrale, recht van de aanval",
+      "duplicateIds": [
+        "rinus-43219",
+        "rinus-43221"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-36403",
+      "primaryTitle": "4 tegen 3, lang smal veld",
+      "duplicateIds": [
+        "rinus-36267"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-331632",
+      "primaryTitle": "1 tegen 1 met 2 grote doelen",
+      "duplicateIds": [
+        "rinus-331630"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-43993",
+      "primaryTitle": "4 tegen 2 positiespel met kleine doeltjes",
+      "duplicateIds": [
+        "rinus-43943"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-41923",
+      "primaryTitle": "1 tegen 1 frontaal",
+      "duplicateIds": [
+        "rinus-42333"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-34769",
+      "primaryTitle": "2 tegen 2 lijnvoetbal",
+      "duplicateIds": [
+        "rinus-482031"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-44083",
+      "primaryTitle": "4+k tegen  4+k met 4 neutrale op kopse kanten",
+      "duplicateIds": [
+        "rinus-44089"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-329906",
+      "primaryTitle": "4 tegen 4, lang smal veld, kleine doeltjes",
+      "duplicateIds": [
+        "rinus-36897",
+        "rinus-329757",
+        "rinus-329910",
+        "rinus-329749"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-340398",
+      "primaryTitle": "1 tegen 1 omschakelen naar 2 tegen 2",
+      "duplicateIds": [
+        "rinus-340468"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-340047",
+      "primaryTitle": "1 tegen 1 scoren op 2 kleine doelen",
+      "duplicateIds": [
+        "rinus-44163"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-48019",
+      "primaryTitle": "4 tegen 4 met 4 kleine doeltjes",
+      "duplicateIds": [
+        "rinus-48169"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-36565",
+      "primaryTitle": "Startvorm met 2, 3 of 4 tikkers",
+      "duplicateIds": [
+        "rinus-36541"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-338921",
+      "primaryTitle": "3+k tegen 3+k met 1 neutrale",
+      "duplicateIds": [
+        "rinus-338815"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-35727",
+      "primaryTitle": "2+k tegen 2+k grote doelen",
+      "duplicateIds": [
+        "rinus-324935"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-41003",
+      "primaryTitle": "2+k tegen 2+k met 2 neutrale",
+      "duplicateIds": [
+        "rinus-339486"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-322643",
+      "primaryTitle": "2+k tegen 1+k met breed veld en grote doelen",
+      "duplicateIds": [
+        "rinus-35421"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-341312",
+      "primaryTitle": "1 tegen 1+k verdedigen op lijn + scoren",
+      "duplicateIds": [
+        "rinus-45361"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-329104",
+      "primaryTitle": "3+k tegen 3+k grote doelen",
+      "duplicateIds": [
+        "rinus-36427"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-34879",
+      "primaryTitle": "2 tegen 2 met pionnen",
+      "duplicateIds": [
+        "rinus-332181",
+        "rinus-332171"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-314161",
+      "primaryTitle": "Poortschietspel met variabele afstand",
+      "duplicateIds": [
+        "rinus-34091"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-331493",
+      "primaryTitle": "Oversteekspel met pionnen (1 verdediger)",
+      "duplicateIds": [
+        "rinus-331489"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-43903",
+      "primaryTitle": "Lion King met kleine doeltjes",
+      "duplicateIds": [
+        "rinus-43881"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-44989",
+      "primaryTitle": "2 tegen 1+K verdedigen op lijn",
+      "duplicateIds": [
+        "rinus-44937"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-34019",
+      "primaryTitle": "Oversteekspel - 1 verdediger",
+      "duplicateIds": [
+        "rinus-36345"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-35605",
+      "primaryTitle": "3 tegen 2 met 4 kleine doeltjes",
+      "duplicateIds": [
+        "rinus-35545"
+      ],
+      "reason": "exact title + metadata match"
+    },
+    {
+      "primaryId": "rinus-39683",
+      "primaryTitle": "Pion dribbelspel",
+      "duplicateIds": [
+        "rinus-39681"
+      ],
+      "reason": "exact title + metadata match"
+    }
+  ],
+  "nearMatches": []
+}
