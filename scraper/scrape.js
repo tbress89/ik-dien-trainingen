@@ -8,6 +8,7 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
+const { writeDatasetFiles } = require('./dedupe-exercises');
 
 const PHASE_MAP = {
   'aanvallen': 'Attacking',
@@ -294,16 +295,11 @@ function mapDifficulty(age) {
       extracted.push(item);
       console.log(`${progress} ✓ Extracted: "${item.title}" (${item.tags.phaseOfPlay} / ${item.tags.drillType} / ${item.ageGroup.join(',')}) [Queue: ${queue.length}]`);
       
-      // Auto-save periodically every 5 items
+      // Auto-save periodically every 5 items, with duplicate filtering to keep the dataset clean.
       if (extracted.length % 5 === 0 || extracted.length === TARGET_EXERCISE_COUNT) {
         const dataDir = path.join(__dirname, '..', 'data');
-        fs.writeFileSync(path.join(dataDir, 'exercises.json'), JSON.stringify(extracted, null, 2), 'utf-8');
-        fs.writeFileSync(path.join(dataDir, 'sample-exercises.json'), JSON.stringify(extracted, null, 2), 'utf-8');
-        fs.writeFileSync(
-          path.join(dataDir, 'exercises-data.js'),
-          '// Ik Dien - KNVB Rinus Officiële Oefeningen & Diagrammen\nwindow.EXERCISES_DATA = ' + JSON.stringify(extracted, null, 2) + ';\n',
-          'utf-8'
-        );
+        const cleaned = writeDatasetFiles(dataDir, extracted);
+        console.log(`  Dedupe summary: ${cleaned.report.duplicateEntriesRemoved} duplicate entries removed from the current dataset.`);
       }
       
     } catch (e) {

@@ -1,4 +1,3 @@
-// Ik Dien - KNVB Rinus Officiële Oefeningen & Diagrammen
 window.EXERCISES_DATA = [
   {
     "id": "rinus-40303",
@@ -395,9 +394,9 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-331630",
+    "id": "rinus-331632",
     "title": "1 tegen 1 met 2 grote doelen",
-    "objective": "Uitspelen van één tegen één situatie verbeteren",
+    "objective": "Scoren verbeteren",
     "ageGroup": [
       "O8 & O9"
     ],
@@ -411,10 +410,10 @@ window.EXERCISES_DATA = [
       "unit": "meter"
     },
     "durationMinutes": 15,
-    "description": "Door middel van dribbelen in kansrijke positie komen\n\nMet de bal een afstand overbruggen",
+    "description": "Door middel van dribbelen in kansrijke positie komen\n\nEen doelpoging met de voet kan met wreef, binnenkant, buitenkant, punt of hak",
     "purpose": [
       "Door middel van dribbelen in kansrijke positie komen",
-      "Met de bal een afstand overbruggen"
+      "Een doelpoging met de voet kan met wreef, binnenkant, buitenkant, punt of hak"
     ],
     "gameRules": [
       "Beide spelers kunnen scoren op een pupillendoel",
@@ -422,9 +421,10 @@ window.EXERCISES_DATA = [
       "Bij een achterbal of hoekschop, indribbelen"
     ],
     "coachingPoints": [
-      "Raak de bal zo vaak dat je hem in looptempo in de goede richting mee kan nemen",
-      "Laat de bal niet wegspringen",
-      "Buig je bovenlichaam iets over de bal heen"
+      "Raak de bal met binnenkant voet",
+      "Meer aan de onderkant, dan gaat de bal omhoog, meer aan de bovenkant, dan blijft de bal laag",
+      "Standbeen licht gebogen, dicht bij de bal, voet meestal in speelrichting",
+      "Speelbeen iets naar buiten gedraaid, knie en enkel gebogen"
     ],
     "difficultySteps": {
       "easier": [
@@ -434,14 +434,14 @@ window.EXERCISES_DATA = [
         "Veld smaller en/of korter maken"
       ]
     },
-    "footballAction": "Uitspelen",
+    "footballAction": "Scoren",
     "media": {
       "images": [
         "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Zaalvoetbal-1-tegen-1-met-2-grote-doelen.svg?t=4922"
       ],
       "videos": []
     },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/331630",
+    "sourceUrl": "https://rinus.knvb.nl/exercise/id/331632",
     "tags": {
       "phaseOfPlay": "Attacking",
       "drillType": "Small-Sided Game",
@@ -855,11 +855,11 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-43943",
+    "id": "rinus-43993",
     "title": "4 tegen 2 positiespel met kleine doeltjes",
-    "objective": "Positiespel in opbouw verbeteren",
+    "objective": "Storen en veroveren van de bal verbeteren",
     "ageGroup": [
-      "O13"
+      "O18 & O19"
     ],
     "playerCount": {
       "min": 6,
@@ -871,10 +871,11 @@ window.EXERCISES_DATA = [
       "unit": "meter"
     },
     "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nDe bal verplaatsen naar een medespeler",
+    "description": "Zonder overtredingen te maken een doelpunt voorkomen\n\nDruk op de bal en op het juiste moment veroveren\n\nVoorkomen dat de bal vooruit kan worden gedribbeld of gespeeld",
     "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "De bal verplaatsen naar een medespeler"
+      "Zonder overtredingen te maken een doelpunt voorkomen",
+      "Druk op de bal en op het juiste moment veroveren",
+      "Voorkomen dat de bal vooruit kan worden gedribbeld of gespeeld"
     ],
     "gameRules": [
       "Als de aanvallers de bal 10x hebben rondgespeeld kunnen zij scoren op een van de twee kleine doeltjes",
@@ -882,86 +883,32 @@ window.EXERCISES_DATA = [
       "Bij 2 punten voor de verdedigers, wisselen van verdedigers"
     ],
     "coachingPoints": [
-      "Kies goed positie ten opzichte van de bal",
-      "Standbeen licht gebogen",
-      "Voet wijst meestal in de speelrichting"
+      "Niet te snel naar de tegenstander toe, behoedzaam naderen",
+      "Blijf zoveel mogelijk oog in oog met de tegenstander, draai je rug niet naar hem toe",
+      "Probeer tegenstander naar de zijkant te dwingen"
     ],
     "difficultySteps": {
       "easier": [
-        "Veld breder en/of langer maken",
-        "De aanvallers mogen bij 8x rondspelen scoren"
-      ],
-      "harder": [
         "Veld smaller en/of korter maken",
         "De aanvallers mogen bij 12x rondspelen scoren"
+      ],
+      "harder": [
+        "Veld breder en/of langer maken",
+        "De aanvallers mogen bij 8x rondspelen scoren"
       ]
     },
-    "footballAction": "Positiespel",
+    "footballAction": "Storen",
     "media": {
       "images": [
         "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/4-tegen-2-positiespel-met-kleine-doeltjes.svg?t=4249"
       ],
       "videos": []
     },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/43943",
+    "sourceUrl": "https://rinus.knvb.nl/exercise/id/43993",
     "tags": {
-      "phaseOfPlay": "Attacking",
+      "phaseOfPlay": "Defending",
       "drillType": "Tactical",
-      "difficultyLevel": "Intermediate"
-    }
-  },
-  {
-    "id": "rinus-38493",
-    "title": "5 tegen 2 positiespel (smal veld)",
-    "objective": "Positiespel in opbouw verbeteren",
-    "ageGroup": [
-      "O13"
-    ],
-    "playerCount": {
-      "min": 7,
-      "max": 10
-    },
-    "fieldDimensions": {
-      "length": 30,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middelen van dribbelen in kansrijke positie komen om te kunnen scoren\n\nDe bal verplaatsen naar een medespeler",
-    "purpose": [
-      "Door middelen van dribbelen in kansrijke positie komen om te kunnen scoren",
-      "De bal verplaatsen naar een medespeler"
-    ],
-    "gameRules": [
-      "Als het vijftal de bal 10x heeft rondgespeeld heeft het 1 punt",
-      "Als de verdedigers de bal veroveren en de bal onder controle hebben (bal onder de voet) of als het vijftal de bal uitschiet, krijgen ze 1 punt",
-      "Bij 3 punten voor het tweetal komen er twee nieuwe verdedigers"
-    ],
-    "coachingPoints": [
-      "Kies goed positie ten opzichte van de bal",
-      "Standbeen licht gebogen",
-      "Voet wijst meestal in de speelrichting"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken"
-      ]
-    },
-    "footballAction": "Positiespel",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/5-tegen-2-positiespel-smal-veld.svg?t=3341"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/38493",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Tactical",
-      "difficultyLevel": "Intermediate"
+      "difficultyLevel": "Advanced"
     }
   },
   {
@@ -1080,66 +1027,11 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-36267",
-    "title": "4 tegen 3, lang smal veld",
-    "objective": "Creëren van kansen",
-    "ageGroup": [
-      "O13"
-    ],
-    "playerCount": {
-      "min": 7,
-      "max": 10
-    },
-    "fieldDimensions": {
-      "length": 40,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nEen tegenstander uitspelen",
-    "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "Een tegenstander uitspelen"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren door te passen/schieten in een klein doeltje",
-      "Als de bal uit is, indribbelen",
-      "Bij achterbal / hoekschop start het viertal bij het eigen doeltje",
-      "Na verloop van tijd wisselen team A en B van rol"
-    ],
-    "coachingPoints": [
-      "Kijk voordat je je individuele actie maakt waar de verdediger positie kiest en waar ruimte ligt",
-      "Speel de bal niet te ver voor je uit, houdt de bal onder controle",
-      "Zorg dat je versnelt tijdens en na de passeeractie anders ben je makkelijk te verdedigen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken"
-      ]
-    },
-    "footballAction": "Creëren",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/4-tegen-3-lang-smal-veld.svg?t=2449"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/36267",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Intermediate"
-    }
-  },
-  {
-    "id": "rinus-42333",
+    "id": "rinus-41923",
     "title": "1 tegen 1 frontaal",
-    "objective": "Voorkomen van doelpunten verbeteren",
+    "objective": "Uitspelen van één tegen één situatie verbeteren",
     "ageGroup": [
-      "O13"
+      "O8 & O9"
     ],
     "playerCount": {
       "min": 6,
@@ -1151,10 +1043,10 @@ window.EXERCISES_DATA = [
       "unit": "meter"
     },
     "durationMinutes": 15,
-    "description": "Tegenstander dwingen naar een zijkant\n\nHet voorkomen van een schot op doel",
+    "description": "Door middel van dribbelen in kansrijke positie komen\n\nMet de bal een afstand overbruggen",
     "purpose": [
-      "Tegenstander dwingen naar een zijkant",
-      "Het voorkomen van een schot op doel"
+      "Door middel van dribbelen in kansrijke positie komen",
+      "Met de bal een afstand overbruggen"
     ],
     "gameRules": [
       "De verdediger start met een pass naar de aanvaller",
@@ -1164,30 +1056,31 @@ window.EXERCISES_DATA = [
       "Punten bijhouden; wie scoort als eerste 5 punten?"
     ],
     "coachingPoints": [
-      "Herkennen van het juiste moment om een aanval op de bal te doen met voldoende snelheid",
-      "Positie kiezen tussen tegenstander en het eigen doel"
+      "Raak de bal zo vaak dat je hem in looptempo in de goede richting mee kan nemen",
+      "Laat de bal niet wegspringen",
+      "Buig je bovenlichaam iets over de bal heen"
     ],
     "difficultySteps": {
       "easier": [
-        "Veld smaller maken",
-        "Twee punten toekennen voor een doelpunt van de verdediger"
+        "Veld breder en/of langer maken"
       ],
       "harder": [
-        "Veld breder en/of langer maken"
+        "Veld smaller maken",
+        "Twee punten toekennen voor een doelpunt van de verdediger"
       ]
     },
-    "footballAction": "Voorkomen",
+    "footballAction": "Uitspelen",
     "media": {
       "images": [
         "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/1-tegen-1-frontaal.svg?t=2659"
       ],
       "videos": []
     },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/42333",
+    "sourceUrl": "https://rinus.knvb.nl/exercise/id/41923",
     "tags": {
-      "phaseOfPlay": "Defending",
+      "phaseOfPlay": "Attacking",
       "drillType": "Small-Sided Game",
-      "difficultyLevel": "Intermediate"
+      "difficultyLevel": "Advanced"
     }
   },
   {
@@ -1246,11 +1139,11 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-482031",
+    "id": "rinus-34769",
     "title": "2 tegen 2 lijnvoetbal",
-    "objective": "Meerdere doelstellingen",
+    "objective": "Uitspelen van één tegen één situatie verbeteren",
     "ageGroup": [
-      "O16 & O19"
+      "O10"
     ],
     "playerCount": {
       "min": 4,
@@ -1262,8 +1155,9 @@ window.EXERCISES_DATA = [
       "unit": "meter"
     },
     "durationMinutes": 15,
-    "description": "Met de bal een afstand overbruggen",
+    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nMet de bal een afstand overbruggen",
     "purpose": [
+      "Door middel van dribbelen of passen in kansrijke positie komen",
       "Met de bal een afstand overbruggen"
     ],
     "gameRules": [
@@ -1287,18 +1181,18 @@ window.EXERCISES_DATA = [
         "Deel van de lijn waarover gedribbeld kan worden kleiner maken"
       ]
     },
-    "footballAction": "Meerdere",
+    "footballAction": "Uitspelen",
     "media": {
       "images": [
         "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/2-tegen-2-lijnvoetbal.svg?t=4659"
       ],
       "videos": []
     },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/482031",
+    "sourceUrl": "https://rinus.knvb.nl/exercise/id/34769",
     "tags": {
       "phaseOfPlay": "Attacking",
       "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
+      "difficultyLevel": "Intermediate"
     }
   },
   {
@@ -1529,9 +1423,9 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-36897",
+    "id": "rinus-329906",
     "title": "4 tegen 4, lang smal veld, kleine doeltjes",
-    "objective": "Positiespel in opbouw verbeteren",
+    "objective": "Storen en veroveren van de bal verbeteren",
     "ageGroup": [
       "O16 & O17"
     ],
@@ -1545,10 +1439,11 @@ window.EXERCISES_DATA = [
       "unit": "meter"
     },
     "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nZodanig positie kiezen of vrijlopen dat je aangespeeld kunt worden door een medespeler",
+    "description": "Zonder overtredingen te maken een doelpunt voorkomen\n\nDruk op de bal houden en op het juiste moment veroveren\n\nVoorkomen dat de bal vooruit kan worden gedribbeld of gespeeld",
     "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "Zodanig positie kiezen of vrijlopen dat je aangespeeld kunt worden door een medespeler"
+      "Zonder overtredingen te maken een doelpunt voorkomen",
+      "Druk op de bal houden en op het juiste moment veroveren",
+      "Voorkomen dat de bal vooruit kan worden gedribbeld of gespeeld"
     ],
     "gameRules": [
       "Beide teams kunnen scoren door te passen/schieten in een klein doeltje",
@@ -1556,30 +1451,30 @@ window.EXERCISES_DATA = [
       "Bij een hoekschop starten bij het eigen doeltje"
     ],
     "coachingPoints": [
-      "Kies zo positie dat je makkelijk aanspeelbaar bent",
-      "Actie na actie, steeds mee blijven doen",
-      "Speel meer uit elkaar, loop elkaar niet in de weg, maak de ruimte groter"
+      "Niet te snel naar de tegenstander toe, behoedzaam naderen",
+      "Blijf zoveel mogelijk oog in oog met de tegenstander, draai je rug niet naar hem toe",
+      "Probeer tegenstander naar de zijkant te dwingen"
     ],
     "difficultySteps": {
       "easier": [
-        "Veld breder en/of langer maken"
-      ],
-      "harder": [
         "Veld smaller en/of korter maken",
         "Spelen met buitenspel, buitenspellijn op de middenlijn (vanaf O13)"
+      ],
+      "harder": [
+        "Veld breder en/of langer maken"
       ]
     },
-    "footballAction": "Positiespel",
+    "footballAction": "Storen",
     "media": {
       "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/4-tegen-4-lang-smal-veld-kleine-doeltjes.svg?t=2616"
+        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Zaalvoetbal-4-tegen-4-lang-smal-veld-kleine-doeltjes.svg?t=2627"
       ],
       "videos": []
     },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/36897",
+    "sourceUrl": "https://rinus.knvb.nl/exercise/id/329906",
     "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Tactical",
+      "phaseOfPlay": "Defending",
+      "drillType": "Small-Sided Game",
       "difficultyLevel": "Advanced"
     }
   },
@@ -1936,61 +1831,6 @@ window.EXERCISES_DATA = [
       "videos": []
     },
     "sourceUrl": "https://rinus.knvb.nl/exercise/id/46761",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-329757",
-    "title": "4 tegen 4, lang smal veld, kleine doeltjes",
-    "objective": "Dieptespel in opbouw verbeteren",
-    "ageGroup": [
-      "O16 & O17"
-    ],
-    "playerCount": {
-      "min": 8,
-      "max": 10
-    },
-    "fieldDimensions": {
-      "length": 40,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nDe bal verplaatsen naar een medespeler",
-    "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "De bal verplaatsen naar een medespeler"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren door te passen/schieten in een klein doeltje",
-      "Als de bal uit is, indribbelen",
-      "Bij een hoekschop starten bij het eigen doeltje"
-    ],
-    "coachingPoints": [
-      "Kies goed positie ten opzichte van de bal",
-      "Standbeen licht gebogen",
-      "Voet wijst meestal in de speelrichting"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken",
-        "Spelen met buitenspel, buitenspellijn op de middenlijn (vanaf O13)"
-      ]
-    },
-    "footballAction": "Dieptespel",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Zaalvoetbal-4-tegen-4-lang-smal-veld-kleine-doeltjes.svg?t=2627"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/329757",
     "tags": {
       "phaseOfPlay": "Attacking",
       "drillType": "Small-Sided Game",
@@ -2395,63 +2235,6 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-340468",
-    "title": "1 tegen 1 omschakelen naar 2 tegen 2",
-    "objective": "Storen en veroveren van de bal verbeteren",
-    "ageGroup": [
-      "O16 & O17"
-    ],
-    "playerCount": {
-      "min": 4,
-      "max": 12
-    },
-    "fieldDimensions": {
-      "length": 20,
-      "width": 12,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Tegenstander dwingen naar een zijkant\n\nPoging doen om de bal te veroveren",
-    "purpose": [
-      "Tegenstander dwingen naar een zijkant",
-      "Poging doen om de bal te veroveren"
-    ],
-    "gameRules": [
-      "De oranje spelers dribbelen op beide veldjes in en spelen één tegen één tegen de blauwe spelers",
-      "Op het moment dat er op één van de twee veldjes gescoord wordt, of als de bal uit gaan, worden de veldjes samengevoegd en wordt het 2 tegen 2",
-      "Scoren op één van de kleine doelen",
-      "Als beide ballen uit zijn, starten er op het signaal van de trainer, twee nieuwe één tegen één situaties",
-      "Als beide ballen uit zijn, zo snel mogelijk het speelveld verlaten en aansluiten aan de andere kant"
-    ],
-    "coachingPoints": [
-      "Tussen de bal en het doel zien te komen",
-      "Zet (snel) druk vooruit"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld smaller en/of korter maken",
-        "Spelers niet coachen, waardoor zij zelf moeten herkennen wanneer ze moeten omschakelen"
-      ],
-      "harder": [
-        "Veld breder en/of langer maken",
-        "Spelers actief coachen om snel om te schakelen"
-      ]
-    },
-    "footballAction": "Storen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Zaalvoetbal-1-tegen-1-omschakelen-naar-2-tegen-2.svg?t=125"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/340468",
-    "tags": {
-      "phaseOfPlay": "Defending",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
     "id": "rinus-339055",
     "title": "2+k tegen 3 op 2 kleine doelen",
     "objective": "Storen en veroveren van de bal verbeteren",
@@ -2503,117 +2286,6 @@ window.EXERCISES_DATA = [
       "videos": []
     },
     "sourceUrl": "https://rinus.knvb.nl/exercise/id/339055",
-    "tags": {
-      "phaseOfPlay": "Defending",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-329910",
-    "title": "4 tegen 4, lang smal veld, kleine doeltjes",
-    "objective": "Verdedigen van één tegen één situatie verbeteren",
-    "ageGroup": [
-      "O16 & O17"
-    ],
-    "playerCount": {
-      "min": 8,
-      "max": 10
-    },
-    "fieldDimensions": {
-      "length": 40,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Zonder overtredingen te maken een doelpunt voorkomen\n\nDruk op de bal houden en op het juiste moment veroveren\n\nPoging doen om de bal te veroveren",
-    "purpose": [
-      "Zonder overtredingen te maken een doelpunt voorkomen",
-      "Druk op de bal houden en op het juiste moment veroveren",
-      "Poging doen om de bal te veroveren"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren door te passen/schieten in een klein doeltje",
-      "Als de bal uit is, indribbelen",
-      "Bij een hoekschop starten bij het eigen doeltje"
-    ],
-    "coachingPoints": [
-      "Tussen de bal en het doel zien te komen",
-      "Zet (snel) druk vooruit"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld smaller en/of korter maken",
-        "Spelen met buitenspel, buitenspellijn op de middenlijn (vanaf O13)"
-      ],
-      "harder": [
-        "Veld breder en/of langer maken"
-      ]
-    },
-    "footballAction": "Verdedigen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Zaalvoetbal-4-tegen-4-lang-smal-veld-kleine-doeltjes.svg?t=2627"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/329910",
-    "tags": {
-      "phaseOfPlay": "Defending",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-329906",
-    "title": "4 tegen 4, lang smal veld, kleine doeltjes",
-    "objective": "Storen en veroveren van de bal verbeteren",
-    "ageGroup": [
-      "O16 & O17"
-    ],
-    "playerCount": {
-      "min": 8,
-      "max": 10
-    },
-    "fieldDimensions": {
-      "length": 40,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Zonder overtredingen te maken een doelpunt voorkomen\n\nDruk op de bal houden en op het juiste moment veroveren\n\nVoorkomen dat de bal vooruit kan worden gedribbeld of gespeeld",
-    "purpose": [
-      "Zonder overtredingen te maken een doelpunt voorkomen",
-      "Druk op de bal houden en op het juiste moment veroveren",
-      "Voorkomen dat de bal vooruit kan worden gedribbeld of gespeeld"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren door te passen/schieten in een klein doeltje",
-      "Als de bal uit is, indribbelen",
-      "Bij een hoekschop starten bij het eigen doeltje"
-    ],
-    "coachingPoints": [
-      "Niet te snel naar de tegenstander toe, behoedzaam naderen",
-      "Blijf zoveel mogelijk oog in oog met de tegenstander, draai je rug niet naar hem toe",
-      "Probeer tegenstander naar de zijkant te dwingen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld smaller en/of korter maken",
-        "Spelen met buitenspel, buitenspellijn op de middenlijn (vanaf O13)"
-      ],
-      "harder": [
-        "Veld breder en/of langer maken"
-      ]
-    },
-    "footballAction": "Storen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Zaalvoetbal-4-tegen-4-lang-smal-veld-kleine-doeltjes.svg?t=2627"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/329906",
     "tags": {
       "phaseOfPlay": "Defending",
       "drillType": "Small-Sided Game",
@@ -3434,62 +3106,6 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-48169",
-    "title": "4 tegen 4 met 4 kleine doeltjes",
-    "objective": "Meerdere doelstellingen",
-    "ageGroup": [
-      "O7 & O10"
-    ],
-    "playerCount": {
-      "min": 8,
-      "max": 10
-    },
-    "fieldDimensions": {
-      "length": 20,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nMet de bal een afstand overbruggen",
-    "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "Met de bal een afstand overbruggen"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren door de bal in een klein doel te passen-mikken",
-      "Als de bal uit is, indribbelen",
-      "Bij een achterbal of hoekschop, indribbelen"
-    ],
-    "coachingPoints": [
-      "Raak de bal zo vaak dat je hem in looptempo in de goede richting mee kan nemen",
-      "Laat de bal niet wegspringen",
-      "Buig je bovenlichaam iets over de bal heen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken",
-        "Kleine doelen verder uit elkaar plaatsen (meer naar buiten)"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken",
-        "Kleine doeltjes dichter bij elkaar plaatsen (meer naar binnen)"
-      ]
-    },
-    "footballAction": "Meerdere",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/4-tegen-4-met-4-kleine-doeltjes.svg?t=5628"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/48169",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
     "id": "rinus-35637",
     "title": "1 tegen 1 met 2 kleine doeltjes",
     "objective": "Ontdekken van lichaam en bal en daarmee gericht handelen",
@@ -3602,11 +3218,11 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-324935",
+    "id": "rinus-35727",
     "title": "2+k tegen 2+k grote doelen",
-    "objective": "Voorkomen van doelpunten verbeteren",
+    "objective": "Storen en veroveren van de bal verbeteren",
     "ageGroup": [
-      "O14 & O15"
+      "O10"
     ],
     "playerCount": {
       "min": 6,
@@ -3618,11 +3234,11 @@ window.EXERCISES_DATA = [
       "unit": "meter"
     },
     "durationMinutes": 15,
-    "description": "Zonder overtredingen te maken een doelpunt voorkomen\n\nDruk op de bal houden en op het juiste moment veroveren\n\nHet voorkomen van een schot op doel",
+    "description": "Zonder overtredingen te maken een doelpunt voorkomen\n\nDruk op de bal houden en op het juiste moment veroveren\n\nVoorkomen dat de bal vooruit kan worden gedribbeld of gespeeld",
     "purpose": [
       "Zonder overtredingen te maken een doelpunt voorkomen",
       "Druk op de bal houden en op het juiste moment veroveren",
-      "Het voorkomen van een schot op doel"
+      "Voorkomen dat de bal vooruit kan worden gedribbeld of gespeeld"
     ],
     "gameRules": [
       "Beide teams kunnen scoren op een groot doel",
@@ -3632,8 +3248,9 @@ window.EXERCISES_DATA = [
       "(Eventueel) doorwisselen na elk doelpunt, achterbal of hoekschop"
     ],
     "coachingPoints": [
-      "Herkennen van het juiste moment om een aanval op de bal te doen met voldoende snelheid",
-      "Positie kiezen tussen tegenstander en het eigen doel"
+      "Niet te snel naar de tegenstander toe, behoedzaam naderen",
+      "Blijf zoveel mogelijk oog in oog met de tegenstander, draai je rug niet naar hem toe",
+      "Probeer tegenstander naar de zijkant te dwingen"
     ],
     "difficultySteps": {
       "easier": [
@@ -3645,84 +3262,26 @@ window.EXERCISES_DATA = [
         "Verdedigers starten halverwege het speelveld (meer ruimte en tijd)"
       ]
     },
-    "footballAction": "Voorkomen",
+    "footballAction": "Storen",
     "media": {
       "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Zaalvoetbal-2k-tegen-2k-grote-doelen.svg?t=5233"
+        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/2k-tegen-2k-grote-doelen.svg?t=5228"
       ],
       "videos": []
     },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/324935",
+    "sourceUrl": "https://rinus.knvb.nl/exercise/id/35727",
     "tags": {
       "phaseOfPlay": "Defending",
       "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
+      "difficultyLevel": "Intermediate"
     }
   },
   {
-    "id": "rinus-338815",
-    "title": "3+k tegen 3+k met 1 neutrale",
-    "objective": "Scoren verbeteren",
-    "ageGroup": [
-      "O14 & O15"
-    ],
-    "playerCount": {
-      "min": 9,
-      "max": 9
-    },
-    "fieldDimensions": {
-      "length": 30,
-      "width": 25,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nEen doelpoging met de voet kan met wreef, binnenkant, buitenkant, punt of hak",
-    "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "Een doelpoging met de voet kan met wreef, binnenkant, buitenkant, punt of hak"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren op een groot doel met keeper",
-      "De neutrale speler hoort bij het team in balbezit",
-      "Als de bal uit is, start de keeper van het balbezittende team",
-      "Na verloop van tijd wisselen van neutrale speler"
-    ],
-    "coachingPoints": [
-      "Raak de bal met binnenkant voet",
-      "Meer aan de onderkant, dan gaat de bal omhoog, meer aan de bovenkant, dan blijft de bal laag",
-      "Standbeen licht gebogen, dicht bij de bal, voet meestal in speelrichting",
-      "Speelbeen iets naar buiten gedraaid, knie en enkel gebogen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken",
-        "Neutrale speler mag niet scoren",
-        "Neutrale speler mag de bal maar 1 keer raken"
-      ]
-    },
-    "footballAction": "Scoren",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Zaalvoetbal-3k-tegen-3k-met-1-neutrale.svg?t=391"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/338815",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-339486",
+    "id": "rinus-41003",
     "title": "2+k tegen 2+k met 2 neutrale",
-    "objective": "Omschakelen op moment van balverlies verbeteren",
+    "objective": "Verdedigen van dieptespel verbeteren",
     "ageGroup": [
-      "O14 & O15"
+      "O18 & O19"
     ],
     "playerCount": {
       "min": 8,
@@ -3734,10 +3293,11 @@ window.EXERCISES_DATA = [
       "unit": "meter"
     },
     "durationMinutes": 15,
-    "description": "Snelle betrokkenheid van iedereen\n\nZo snel mogelijk een poging doen de bal te veroveren",
+    "description": "Zonder overtredingen te maken een doelpunt voorkomen\n\nDruk op de bal en op het juiste moment veroveren\n\nTegenstander overnemen van een medespeler",
     "purpose": [
-      "Snelle betrokkenheid van iedereen",
-      "Zo snel mogelijk een poging doen de bal te veroveren"
+      "Zonder overtredingen te maken een doelpunt voorkomen",
+      "Druk op de bal en op het juiste moment veroveren",
+      "Tegenstander overnemen van een medespeler"
     ],
     "gameRules": [
       "Beide teams scoren op een groot doel met keeper",
@@ -3746,29 +3306,29 @@ window.EXERCISES_DATA = [
       "Na verloop van tijd, wisselen van neutrale spelers"
     ],
     "coachingPoints": [
-      "Tussen de bal en het doel zien te komen",
-      "Zet zo snel mogelijk druk vooruit"
+      "Communiceren met medespeler over moment van loslaten",
+      "Oog in oog met tegenstander blijven"
     ],
     "difficultySteps": {
       "easier": [
-        "Veld breder en/of langer maken"
-      ],
-      "harder": [
         "Veld smaller en/of korter maken",
         "Neutrale spelers mogen niet scoren",
         "Neutrale spelers mogen de bal maximaal twee keer raken"
+      ],
+      "harder": [
+        "Veld breder en/of langer maken"
       ]
     },
-    "footballAction": "Omschakelen",
+    "footballAction": "Verdedigen",
     "media": {
       "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Zaalvoetbal-2keeper-tegen-2keeper-met-2-neutrale.svg?t=00"
+        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/2keeper-tegen-2keeper-met-2-neutrale.svg?t=5952"
       ],
       "videos": []
     },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/339486",
+    "sourceUrl": "https://rinus.knvb.nl/exercise/id/41003",
     "tags": {
-      "phaseOfPlay": "Attacking",
+      "phaseOfPlay": "Defending",
       "drillType": "Small-Sided Game",
       "difficultyLevel": "Advanced"
     }
@@ -3941,61 +3501,6 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-329749",
-    "title": "4 tegen 4, lang smal veld, kleine doeltjes",
-    "objective": "Dieptespel in opbouw verbeteren",
-    "ageGroup": [
-      "O14 & O15"
-    ],
-    "playerCount": {
-      "min": 8,
-      "max": 10
-    },
-    "fieldDimensions": {
-      "length": 40,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nZodanig positie kiezen of vrijlopen dat je aangespeeld kunt worden door een medespeler",
-    "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "Zodanig positie kiezen of vrijlopen dat je aangespeeld kunt worden door een medespeler"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren door te passen/schieten in een klein doeltje",
-      "Als de bal uit is, indribbelen",
-      "Bij een hoekschop starten bij het eigen doeltje"
-    ],
-    "coachingPoints": [
-      "Kies zo positie dat je makkelijk aanspeelbaar bent",
-      "Actie na actie, steeds mee blijven doen",
-      "Speel meer uit elkaar, loop elkaar niet in de weg, maak de ruimte groter"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken",
-        "Spelen met buitenspel, buitenspellijn op de middenlijn (vanaf O13)"
-      ]
-    },
-    "footballAction": "Dieptespel",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Zaalvoetbal-4-tegen-4-lang-smal-veld-kleine-doeltjes.svg?t=2627"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/329749",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
     "id": "rinus-336322",
     "title": "1 tegen 1 schuin van voren",
     "objective": "Uitspelen van één tegen één situatie verbeteren",
@@ -4055,36 +3560,38 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-332181",
+    "id": "rinus-34879",
     "title": "2 tegen 2 met pionnen",
-    "objective": "Uitspelen van één tegen één situatie verbeteren",
+    "objective": "Creëren van kansen",
     "ageGroup": [
-      "O14 & O15"
+      "O18 & O19"
     ],
     "playerCount": {
       "min": 4,
       "max": 8
     },
     "fieldDimensions": {
-      "length": 30,
-      "width": 20,
+      "length": 20,
+      "width": 15,
       "unit": "meter"
     },
     "durationMinutes": 15,
-    "description": "Door middel van dribbelen in kansrijke positie komen\n\nEen tegenstander uitspelen",
+    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nZodanig positie kiezen of vrijlopen dat je aangespeeld kunt worden door een medespeler",
     "purpose": [
-      "Door middel van dribbelen in kansrijke positie komen",
-      "Een tegenstander uitspelen"
+      "Door middel van dribbelen of passen in kansrijke positie komen",
+      "Zodanig positie kiezen of vrijlopen dat je aangespeeld kunt worden door een medespeler"
     ],
     "gameRules": [
-      "Beide spelers kunnen scoren door de bal tegen een pion te passen-mikken",
-      "Als de bal uit is, indribbelen",
-      "Bij een achterbal of hoekschop, indribbelen"
+      "Beide teams kunnen scoren door met de bal een van de grote pionnen te raken (=1 punt) of om te schieten (=2 punten)",
+      "Als de bal uit is, indribbelen. 3x uit is doorwisselen",
+      "Bij een doelpunt, achterbal of hoekschop in het midden van de eigen lijn starten",
+      "Er mag niet verdedigd worden in het eigen verdedigingsvak",
+      "(Eventueel) doorwisselen na elk doelpunt, achterbal of hoekschop"
     ],
     "coachingPoints": [
-      "Kijk voordat je je individuele actie maakt waar de verdediger positie kiest en waar ruimte ligt",
-      "Speel de bal niet te ver voor je uit, houdt de bal onder controle",
-      "Zorg dat je versnelt tijdens en na de passeeractie anders ben je makkelijk te verdedigen"
+      "Kies zo positie dat je makkelijk aanspeelbaar bent",
+      "Actie na actie, steeds mee blijven doen",
+      "Speel meer uit elkaar, loop elkaar niet in de weg, maak de ruimte groter"
     ],
     "difficultySteps": {
       "easier": [
@@ -4096,69 +3603,14 @@ window.EXERCISES_DATA = [
         "Minder pionnen plaatsen waarop gescoord kan worden"
       ]
     },
-    "footballAction": "Uitspelen",
+    "footballAction": "Creëren",
     "media": {
       "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Zaalvoetbal-2-tegen-2-met-pionnen.svg?t=534"
+        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/2-tegen-2-met-pionnen.svg?t=5246"
       ],
       "videos": []
     },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/332181",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-339147",
-    "title": "3 tegen 3 lijnvoetbal",
-    "objective": "Uitspelen van één tegen één situatie verbeteren",
-    "ageGroup": [
-      "O14 & O15"
-    ],
-    "playerCount": {
-      "min": 6,
-      "max": 6
-    },
-    "fieldDimensions": {
-      "length": 20,
-      "width": 30,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nMet de bal een afstand overbruggen",
-    "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "Met de bal een afstand overbruggen"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren door de bal over de achterlijn van de tegenpartij te dribbelen en de bal te controleren in het vak",
-      "Als de bal uit is, indribbelen",
-      "(Eventueel) meerdere keren uitzetten"
-    ],
-    "coachingPoints": [
-      "Raak de bal zo vaak dat je hem in looptempo in de goede richting mee kan nemen",
-      "Laat de bal niet wegspringen",
-      "Buig je bovenlichaam iets over de bal heen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken",
-        "Scoringsvak kleiner maken"
-      ]
-    },
-    "footballAction": "Uitspelen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Zaalvoetbal-3-tegen-3-lijnvoetbal.svg?t=5820"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/339147",
+    "sourceUrl": "https://rinus.knvb.nl/exercise/id/34879",
     "tags": {
       "phaseOfPlay": "Attacking",
       "drillType": "Small-Sided Game",
@@ -4447,62 +3899,6 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-332171",
-    "title": "2 tegen 2 met pionnen",
-    "objective": "Uitspelen van één tegen één situatie verbeteren",
-    "ageGroup": [
-      "O8 & O9"
-    ],
-    "playerCount": {
-      "min": 4,
-      "max": 8
-    },
-    "fieldDimensions": {
-      "length": 30,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nMet de bal een afstand overbruggen",
-    "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "Met de bal een afstand overbruggen"
-    ],
-    "gameRules": [
-      "Beide spelers kunnen scoren door de bal tegen een pion te passen-mikken",
-      "Als de bal uit is, indribbelen",
-      "Bij een achterbal of hoekschop, indribbelen"
-    ],
-    "coachingPoints": [
-      "Raak de bal zo vaak dat je hem in looptempo in de goede richting mee kan nemen",
-      "Laat de bal niet wegspringen",
-      "Buig je bovenlichaam iets over de bal heen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken",
-        "Meer pionnen plaatsen waarop gescoord kan worden"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken",
-        "Minder pionnen plaatsen waarop gescoord kan worden"
-      ]
-    },
-    "footballAction": "Uitspelen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Zaalvoetbal-2-tegen-2-met-pionnen.svg?t=534"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/332171",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
     "id": "rinus-314161",
     "title": "Poortschietspel met variabele afstand",
     "objective": "Scoren verbeteren",
@@ -4615,118 +4011,6 @@ window.EXERCISES_DATA = [
     "tags": {
       "phaseOfPlay": "Attacking",
       "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-331632",
-    "title": "1 tegen 1 met 2 grote doelen",
-    "objective": "Scoren verbeteren",
-    "ageGroup": [
-      "O8 & O9"
-    ],
-    "playerCount": {
-      "min": 2,
-      "max": 4
-    },
-    "fieldDimensions": {
-      "length": 30,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen in kansrijke positie komen\n\nEen doelpoging met de voet kan met wreef, binnenkant, buitenkant, punt of hak",
-    "purpose": [
-      "Door middel van dribbelen in kansrijke positie komen",
-      "Een doelpoging met de voet kan met wreef, binnenkant, buitenkant, punt of hak"
-    ],
-    "gameRules": [
-      "Beide spelers kunnen scoren op een pupillendoel",
-      "Als de bal uit is, indribbelen",
-      "Bij een achterbal of hoekschop, indribbelen"
-    ],
-    "coachingPoints": [
-      "Raak de bal met binnenkant voet",
-      "Meer aan de onderkant, dan gaat de bal omhoog, meer aan de bovenkant, dan blijft de bal laag",
-      "Standbeen licht gebogen, dicht bij de bal, voet meestal in speelrichting",
-      "Speelbeen iets naar buiten gedraaid, knie en enkel gebogen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken"
-      ]
-    },
-    "footballAction": "Scoren",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Zaalvoetbal-1-tegen-1-met-2-grote-doelen.svg?t=4922"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/331632",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-331489",
-    "title": "Oversteekspel met pionnen (1 verdediger)",
-    "objective": "Positiespel in opbouw verbeteren",
-    "ageGroup": [
-      "O8 & O9"
-    ],
-    "playerCount": {
-      "min": 5,
-      "max": 10
-    },
-    "fieldDimensions": {
-      "length": 30,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen in kansrijke positie komen\n\nMet de bal een afstand overbruggen",
-    "purpose": [
-      "Door middel van dribbelen in kansrijke positie komen",
-      "Met de bal een afstand overbruggen"
-    ],
-    "gameRules": [
-      "Vier tot zes spelers starten gelijktijdig met dribbelen naar de overzijde, waarbij ze door één van de drie poortjes moeten dribbelen",
-      "De verdediger probeert de bal af te pakken, lukt dat, krijgt hij één punt",
-      "Als de spelers aan de overzijde gekomen zijn, hebben ze één punt en kunnen ze via het slootje weer terug dribbelen"
-    ],
-    "coachingPoints": [
-      "Raak de bal zo vaak dat je hem in looptempo in de goede richting mee kan nemen",
-      "Laat de bal niet wegspringen",
-      "Buig je bovenlichaam iets over de bal heen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken",
-        "Poortjes breder maken"
-      ],
-      "harder": [
-        "Veld smaller maken",
-        "Poortjes smaller maken",
-        "Maximaal drie spelers mogen gelijktijdig dribbelen naar de overzijde"
-      ]
-    },
-    "footballAction": "Positiespel",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Zaalvoetbal-Oversteekspel-met-pionnen-1-verdediger.svg?t=41"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/331489",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Tactical",
       "difficultyLevel": "Advanced"
     }
   },
@@ -5139,234 +4423,6 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-43219",
-    "title": "3+k tegen 3 + 1 neutrale, recht van de aanval",
-    "objective": "Uitspelen van één tegen één situatie verbeteren",
-    "ageGroup": [
-      "O18 & O19"
-    ],
-    "playerCount": {
-      "min": 8,
-      "max": 8
-    },
-    "fieldDimensions": {
-      "length": 40,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nMet de bal een afstand overbruggen",
-    "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "Met de bal een afstand overbruggen"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren op het grote doel met keeper",
-      "De neutrale speler is de kaatser in het gele vak tegenover het grote doel",
-      "Voordat er gescoord mag worden, dient het balbezittende team eerst de neutrale speler te gebruiken, hiermee halen ze 'recht van de aanval'",
-      "Op het moment dat de bal uit gaat, of als de tegenpartij de bal onderschept, moet er weer opnieuw 'recht van de aanval' worden gehaald bij de neutrale speler",
-      "Als de bal uit is, indribbelen"
-    ],
-    "coachingPoints": [
-      "Raak de bal zo vaak dat je hem in looptempo in de goede richting mee kan nemen",
-      "Laat de bal niet wegspringen",
-      "Buig je bovenlichaam iets over de bal heen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken",
-        "Neutrale speler maximaal 1 keer raken"
-      ]
-    },
-    "footballAction": "Uitspelen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/3keeper-tegen-3-1-neutrale-recht-van-de-aanval.svg?t=2413"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/43219",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-44089",
-    "title": "4+k tegen  4+k met 4 neutrale op kopse kanten",
-    "objective": "Positiespel in opbouw verbeteren",
-    "ageGroup": [
-      "O18 & O19"
-    ],
-    "playerCount": {
-      "min": 14,
-      "max": 14
-    },
-    "fieldDimensions": {
-      "length": 40,
-      "width": 30,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middelen van dribbelen in kansrijke positie komen om te kunnen scoren\n\nDe bal aan- of meenemen om verder te kunnen voetballen",
-    "purpose": [
-      "Door middelen van dribbelen in kansrijke positie komen om te kunnen scoren",
-      "De bal aan- of meenemen om verder te kunnen voetballen"
-    ],
-    "gameRules": [
-      "Er wordt 4 tegen 4 gespeeld, waarbij beide teams neutrale spelers naast het doel van de tegenpartij hebben staan die alleen op de achterlijn mogen bewegen",
-      "De neutrale spelers bij het doel van blauw horen bij oranje en andersom",
-      "Beide teams scoren op een groot doel met keeper",
-      "Een doelpunt vanuit een kaats van de neutrale speler, telt dubbel",
-      "Na verloop van tijd (bijvoorbeeld 3 minuten), komt lichtblauw in het veld en wordt donkerblauw de neutrale spelers"
-    ],
-    "coachingPoints": [
-      "Draai de voet naar buiten",
-      "Houd de voet ontspannen",
-      "Zorg dat de bal dichtbij je blijft"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken",
-        "Neutrale spelers mogen de bal maximaal 1 keer raken"
-      ]
-    },
-    "footballAction": "Positiespel",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/4k-tegen-4k-met-4-neutrale-op-kopse-kanten.svg?t=3324"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/44089",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Tactical",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-43221",
-    "title": "3+k tegen 3 + 1 neutrale, recht van de aanval",
-    "objective": "Creëren van kansen",
-    "ageGroup": [
-      "O18 & O19"
-    ],
-    "playerCount": {
-      "min": 8,
-      "max": 8
-    },
-    "fieldDimensions": {
-      "length": 40,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nMet de bal een afstand overbruggen",
-    "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "Met de bal een afstand overbruggen"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren op het grote doel met keeper",
-      "De neutrale speler is de kaatser in het gele vak tegenover het grote doel",
-      "Voordat er gescoord mag worden, dient het balbezittende team eerst de neutrale speler te gebruiken, hiermee halen ze 'recht van de aanval'",
-      "Op het moment dat de bal uit gaat, of als de tegenpartij de bal onderschept, moet er weer opnieuw 'recht van de aanval' worden gehaald bij de neutrale speler",
-      "Als de bal uit is, indribbelen"
-    ],
-    "coachingPoints": [
-      "Raak de bal zo vaak dat je hem in looptempo in de goede richting mee kan nemen",
-      "Laat de bal niet wegspringen",
-      "Buig je bovenlichaam iets over de bal heen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken",
-        "Neutrale speler maximaal 1 keer raken"
-      ]
-    },
-    "footballAction": "Creëren",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/3keeper-tegen-3-1-neutrale-recht-van-de-aanval.svg?t=2413"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/43221",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-43993",
-    "title": "4 tegen 2 positiespel met kleine doeltjes",
-    "objective": "Storen en veroveren van de bal verbeteren",
-    "ageGroup": [
-      "O18 & O19"
-    ],
-    "playerCount": {
-      "min": 6,
-      "max": 6
-    },
-    "fieldDimensions": {
-      "length": 20,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Zonder overtredingen te maken een doelpunt voorkomen\n\nDruk op de bal en op het juiste moment veroveren\n\nVoorkomen dat de bal vooruit kan worden gedribbeld of gespeeld",
-    "purpose": [
-      "Zonder overtredingen te maken een doelpunt voorkomen",
-      "Druk op de bal en op het juiste moment veroveren",
-      "Voorkomen dat de bal vooruit kan worden gedribbeld of gespeeld"
-    ],
-    "gameRules": [
-      "Als de aanvallers de bal 10x hebben rondgespeeld kunnen zij scoren op een van de twee kleine doeltjes",
-      "Als de verdedigers de bal veroveren kunnen zij direct scoren op een van de twee kleine doeltjes",
-      "Bij 2 punten voor de verdedigers, wisselen van verdedigers"
-    ],
-    "coachingPoints": [
-      "Niet te snel naar de tegenstander toe, behoedzaam naderen",
-      "Blijf zoveel mogelijk oog in oog met de tegenstander, draai je rug niet naar hem toe",
-      "Probeer tegenstander naar de zijkant te dwingen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld smaller en/of korter maken",
-        "De aanvallers mogen bij 12x rondspelen scoren"
-      ],
-      "harder": [
-        "Veld breder en/of langer maken",
-        "De aanvallers mogen bij 8x rondspelen scoren"
-      ]
-    },
-    "footballAction": "Storen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/4-tegen-2-positiespel-met-kleine-doeltjes.svg?t=4249"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/43993",
-    "tags": {
-      "phaseOfPlay": "Defending",
-      "drillType": "Tactical",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
     "id": "rinus-45625",
     "title": "Positiespel 4 tegen 3 spel verplaatsen",
     "objective": "Omschakelen bij veroveren van de bal verbeteren",
@@ -5487,65 +4543,6 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-34091",
-    "title": "Poortschietspel met variabele afstand",
-    "objective": "Dieptespel in opbouw verbeteren",
-    "ageGroup": [
-      "O10"
-    ],
-    "playerCount": {
-      "min": 4,
-      "max": 8
-    },
-    "fieldDimensions": {
-      "length": 20,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen in kansrijke positie komen\n\nDe bal verplaatsen naar een medespeler",
-    "purpose": [
-      "Door middel van dribbelen in kansrijke positie komen",
-      "De bal verplaatsen naar een medespeler"
-    ],
-    "gameRules": [
-      "Beide spelers kunnen scoren door tussen de pionnen te passen",
-      "Wanneer je drie punten gescoord hebt vanaf de drie meter lijn, ga je naar de volgende lijn (vijf meter). Wanneer je hier ook weer drie punten hebt gescoord ga je naar de kampioenslijn",
-      "Wie het eerst drie punten heeft vanaf de kampioenslijn (zeven meter) heeft gewonnen",
-      "Wanneer je twee keer achter elkaar de pion mist ga je een lijn dichterbij"
-    ],
-    "coachingPoints": [
-      "Kies goed positie ten opzichte van de bal",
-      "Standbeen licht gebogen",
-      "Voet wijst meestal in de speelrichting"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Doel / poortje vergroten",
-        "Afstand van het passen verkleinen"
-      ],
-      "harder": [
-        "Doel / poortje verkleinen",
-        "Afstand van het passen vergroten",
-        "Passen van een rollende bal",
-        "Passen met het 'verkeerde' been"
-      ]
-    },
-    "footballAction": "Dieptespel",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Poortschietspel-met-variabele-afstand.svg?t=811"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/34091",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Intermediate"
-    }
-  },
-  {
     "id": "rinus-43903",
     "title": "Lion King met kleine doeltjes",
     "objective": "Uitspelen van één tegen één situatie verbeteren",
@@ -5604,63 +4601,6 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-34769",
-    "title": "2 tegen 2 lijnvoetbal",
-    "objective": "Uitspelen van één tegen één situatie verbeteren",
-    "ageGroup": [
-      "O10"
-    ],
-    "playerCount": {
-      "min": 4,
-      "max": 8
-    },
-    "fieldDimensions": {
-      "length": 20,
-      "width": 15,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nMet de bal een afstand overbruggen",
-    "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "Met de bal een afstand overbruggen"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren door de bal over de lijn van de tegenstander te dribbelen en de bal in het vak te controleren",
-      "Als de bal uit is indribbelen, 3x uit doorwisselen",
-      "Bij een doelpunt, achterbal of uitbal, in het midden van de eigen lijn starten",
-      "Er mag niet verdedigd worden in het eigen verdedigingsvak"
-    ],
-    "coachingPoints": [
-      "Raak de bal zo vaak dat je hem in looptempo in de goede richting mee kan nemen",
-      "Laat de bal niet wegspringen",
-      "Buig je bovenlichaam iets over de bal heen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken",
-        "Verdedigers starten halverwege het speelveld (meer ruimte en tijd voor de aanvallers)"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken",
-        "Deel van de lijn waarover gedribbeld kan worden kleiner maken"
-      ]
-    },
-    "footballAction": "Uitspelen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/2-tegen-2-lijnvoetbal.svg?t=4659"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/34769",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Intermediate"
-    }
-  },
-  {
     "id": "rinus-36499",
     "title": "Dribbelschietspel met 2 kleine doeltjes (2 aanvallers + 1 verdediger)",
     "objective": "Dieptespel in opbouw verbeteren",
@@ -5714,121 +4654,6 @@ window.EXERCISES_DATA = [
       "videos": []
     },
     "sourceUrl": "https://rinus.knvb.nl/exercise/id/36499",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-35421",
-    "title": "2+k tegen 1+k met breed veld en grote doelen",
-    "objective": "Scoren verbeteren",
-    "ageGroup": [
-      "O6 & O10"
-    ],
-    "playerCount": {
-      "min": 6,
-      "max": 8
-    },
-    "fieldDimensions": {
-      "length": 30,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nEen doelpoging met de voet kan met wreef, binnenkant, buitenkant, punt of hak",
-    "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "Een doelpoging met de voet kan met wreef, binnenkant, buitenkant, punt of hak"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren op een groot doel met keeper",
-      "Als de bal uit is, indribbelen",
-      "Bij een hoekschop of achterbal starten bij de keeper van het tweetal",
-      "Dubbele score wanneer de verdediger de bal verovert op de helft van de tegenpartij en scoort",
-      "Na verloop van tijd wisselen team A en B van rol"
-    ],
-    "coachingPoints": [
-      "Raak de bal met binnenkant voet",
-      "Meer aan de onderkant, dan gaat de bal omhoog, meer aan de bovenkant, dan blijft de bal laag",
-      "Standbeen licht gebogen, dicht bij de bal, voet meestal in speelrichting",
-      "Speelbeen iets naar buiten gedraaid, knie en enkel gebogen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken"
-      ]
-    },
-    "footballAction": "Scoren",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/2k-tegen-1k-met-breed-veld-en-grote-doelen.svg?t=5214"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/35421",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-43881",
-    "title": "Lion King met kleine doeltjes",
-    "objective": "Uitspelen van één tegen één situatie verbeteren",
-    "ageGroup": [
-      "O8 & O9"
-    ],
-    "playerCount": {
-      "min": 5,
-      "max": 7
-    },
-    "fieldDimensions": {
-      "length": 30,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen in kansrijke positie komen\n\nMet de bal een afstand overbruggen",
-    "purpose": [
-      "Door middel van dribbelen in kansrijke positie komen",
-      "Met de bal een afstand overbruggen"
-    ],
-    "gameRules": [
-      "De spelers proberen, dribbelend met een bal, vanuit hun pion naar het middelste vak (de leeuwenkuil) te dribbelen en terug",
-      "De speler(s) in het vak (leeuw) probeert de bal uit het vak (leeuwenkuil) te houden door deze af te pakken, hij scoort een punt als hij deze vervolgens in een van de kleine doeltjes schiet",
-      "Als de bal aangeraakt is, ga je eerst terug naar de pion waar je begonnen bent",
-      "Als de speler het lukt om terug te keren in het vak, zonder dat de bal door de leeuw aangeraakt is, mag hij een hoedje op zijn pion leggen",
-      "De speler die als eerste vijf hoedjes op de pion heeft, is de winnaar",
-      "Na 90 seconden wisselen van leeuw",
-      "Wie scoort de meeste punten?"
-    ],
-    "coachingPoints": [
-      "Raak de bal zo vaak dat je hem in looptempo in de goede richting mee kan nemen",
-      "Laat de bal niet wegspringen",
-      "Buig je bovenlichaam iets over de bal heen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Het vak (de leeuwenkuil) breder en/of langer maken"
-      ],
-      "harder": [
-        "Het vak (de leeuwenkuil) smaller en/of korter maken"
-      ]
-    },
-    "footballAction": "Uitspelen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Lion-King-met-kleine-doeltjes.svg?t=4133"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/43881",
     "tags": {
       "phaseOfPlay": "Attacking",
       "drillType": "Small-Sided Game",
@@ -6011,60 +4836,6 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-36427",
-    "title": "3+k tegen 3+k grote doelen",
-    "objective": "Uitspelen van één tegen één situatie verbeteren",
-    "ageGroup": [
-      "O8 & O9"
-    ],
-    "playerCount": {
-      "min": 8,
-      "max": 12
-    },
-    "fieldDimensions": {
-      "length": 30,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nMet de bal een afstand overbruggen",
-    "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "Met de bal een afstand overbruggen"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren op een groot doel met keeper",
-      "Als de bal uit is, indribbelen",
-      "Bij een hoekschop of achterbal, start de keeper van het eigen team"
-    ],
-    "coachingPoints": [
-      "Raak de bal zo vaak dat je hem in looptempo in de goede richting mee kan nemen",
-      "Laat de bal niet wegspringen",
-      "Buig je bovenlichaam iets over de bal heen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken"
-      ]
-    },
-    "footballAction": "Uitspelen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/3k-tegen-3k-grote-doelen.svg?t=4949"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/36427",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
     "id": "rinus-44989",
     "title": "2 tegen 1+K verdedigen op lijn",
     "objective": "Voorkomen van doelpunten verbeteren",
@@ -6172,65 +4943,6 @@ window.EXERCISES_DATA = [
       "videos": []
     },
     "sourceUrl": "https://rinus.knvb.nl/exercise/id/33909",
-    "tags": {
-      "phaseOfPlay": "Defending",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Intermediate"
-    }
-  },
-  {
-    "id": "rinus-35727",
-    "title": "2+k tegen 2+k grote doelen",
-    "objective": "Storen en veroveren van de bal verbeteren",
-    "ageGroup": [
-      "O10"
-    ],
-    "playerCount": {
-      "min": 6,
-      "max": 10
-    },
-    "fieldDimensions": {
-      "length": 30,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Zonder overtredingen te maken een doelpunt voorkomen\n\nDruk op de bal houden en op het juiste moment veroveren\n\nVoorkomen dat de bal vooruit kan worden gedribbeld of gespeeld",
-    "purpose": [
-      "Zonder overtredingen te maken een doelpunt voorkomen",
-      "Druk op de bal houden en op het juiste moment veroveren",
-      "Voorkomen dat de bal vooruit kan worden gedribbeld of gespeeld"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren op een groot doel",
-      "Als de bal uit is, indribbelen. 3x uit is doorwisselen",
-      "Bij een doelpunt, achterbal of hoekschop starten bij je eigen keeper",
-      "Keeper mag alleen op zijn eigen helft meevoetballen",
-      "(Eventueel) doorwisselen na elk doelpunt, achterbal of hoekschop"
-    ],
-    "coachingPoints": [
-      "Niet te snel naar de tegenstander toe, behoedzaam naderen",
-      "Blijf zoveel mogelijk oog in oog met de tegenstander, draai je rug niet naar hem toe",
-      "Probeer tegenstander naar de zijkant te dwingen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld smaller en/of korter maken",
-        "Vanaf Onder 13 spelen met buitenspel, buitenspellijn halverwege het speelveld plaatsen"
-      ],
-      "harder": [
-        "Veld breder en/of langer maken",
-        "Verdedigers starten halverwege het speelveld (meer ruimte en tijd)"
-      ]
-    },
-    "footballAction": "Storen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/2k-tegen-2k-grote-doelen.svg?t=5228"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/35727",
     "tags": {
       "phaseOfPlay": "Defending",
       "drillType": "Small-Sided Game",
@@ -6351,61 +5063,6 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-45361",
-    "title": "1 tegen 1+k verdedigen op lijn + scoren",
-    "objective": "Verdedigen van één tegen één situatie verbeteren",
-    "ageGroup": [
-      "O18 & O19"
-    ],
-    "playerCount": {
-      "min": 4,
-      "max": 7
-    },
-    "fieldDimensions": {
-      "length": 25,
-      "width": 10,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Tegenstander dwingen naar een zijkant\n\nPoging doen om de bal te veroveren",
-    "purpose": [
-      "Tegenstander dwingen naar een zijkant",
-      "Poging doen om de bal te veroveren"
-    ],
-    "gameRules": [
-      "De aanvaller dribbelt het veldje in en speelt 1 tegen 1 tegen de verdediger",
-      "De verdediger mag alleen verdedigen op zijn lijn",
-      "De aanvaller kan scoren op een groot doel met keeper",
-      "De verdediger scoort een punt door de bal buiten het veldje te schieten, of door de bal te controleren",
-      "Na drie veroveringen, wisselen van verdediger"
-    ],
-    "coachingPoints": [
-      "Tussen de bal en het doel zien te komen",
-      "Zet (snel) druk vooruit"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld (en lijn van verdediger) smaller maken"
-      ],
-      "harder": [
-        "Veld (en lijn van verdediger) breder maken"
-      ]
-    },
-    "footballAction": "Verdedigen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/1-tegen-1keeper-verdedigen-op-lijn-scoren.svg?t=1923"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/45361",
-    "tags": {
-      "phaseOfPlay": "Defending",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
     "id": "rinus-43585",
     "title": "7 tegen 7 in een 1-4-1-1 tegen een 1-2-2-2",
     "objective": "Scoren verbeteren",
@@ -6518,64 +5175,6 @@ window.EXERCISES_DATA = [
     "sourceUrl": "https://rinus.knvb.nl/exercise/id/35605",
     "tags": {
       "phaseOfPlay": "Defending",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-34879",
-    "title": "2 tegen 2 met pionnen",
-    "objective": "Creëren van kansen",
-    "ageGroup": [
-      "O18 & O19"
-    ],
-    "playerCount": {
-      "min": 4,
-      "max": 8
-    },
-    "fieldDimensions": {
-      "length": 20,
-      "width": 15,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nZodanig positie kiezen of vrijlopen dat je aangespeeld kunt worden door een medespeler",
-    "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "Zodanig positie kiezen of vrijlopen dat je aangespeeld kunt worden door een medespeler"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren door met de bal een van de grote pionnen te raken (=1 punt) of om te schieten (=2 punten)",
-      "Als de bal uit is, indribbelen. 3x uit is doorwisselen",
-      "Bij een doelpunt, achterbal of hoekschop in het midden van de eigen lijn starten",
-      "Er mag niet verdedigd worden in het eigen verdedigingsvak",
-      "(Eventueel) doorwisselen na elk doelpunt, achterbal of hoekschop"
-    ],
-    "coachingPoints": [
-      "Kies zo positie dat je makkelijk aanspeelbaar bent",
-      "Actie na actie, steeds mee blijven doen",
-      "Speel meer uit elkaar, loop elkaar niet in de weg, maak de ruimte groter"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken",
-        "Meer pionnen plaatsen waarop gescoord kan worden"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken",
-        "Minder pionnen plaatsen waarop gescoord kan worden"
-      ]
-    },
-    "footballAction": "Creëren",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/2-tegen-2-met-pionnen.svg?t=5246"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/34879",
-    "tags": {
-      "phaseOfPlay": "Attacking",
       "drillType": "Small-Sided Game",
       "difficultyLevel": "Advanced"
     }
@@ -6695,118 +5294,6 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-44163",
-    "title": "1 tegen 1 scoren op 2 kleine doelen",
-    "objective": "Omschakelen op moment van balverlies verbeteren",
-    "ageGroup": [
-      "O18 & O19"
-    ],
-    "playerCount": {
-      "min": 4,
-      "max": 6
-    },
-    "fieldDimensions": {
-      "length": 10,
-      "width": 15,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Snelle betrokkenheid tijdens het verdedigen\n\nZo snel mogelijk een poging doen de bal te veroveren",
-    "purpose": [
-      "Snelle betrokkenheid tijdens het verdedigen",
-      "Zo snel mogelijk een poging doen de bal te veroveren"
-    ],
-    "gameRules": [
-      "Aanvaller dribbelt het veldje in en kan scoren op één van de twee kleine doelen",
-      "De verdediger kan scoren door de bal te veroveren en over de achterlijn bij de aanvallers te dribbelen",
-      "Als de bal uit is, of als er gescoord is, start er direct een nieuwe aanvaller. De oude aanvaller moet direct omschakelen en wordt verdediger"
-    ],
-    "coachingPoints": [
-      "Tussen de bal en het doel zien te komen",
-      "Zet zo snel mogelijk druk vooruit"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken",
-        "Kleine doeltjes verder uit elkaar plaatsen (meer naar buiten)"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken",
-        "Kleine doeltjes dichter bij elkaar plaatsen (meer naar binnen)"
-      ]
-    },
-    "footballAction": "Omschakelen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/1-tegen-1-scoren-op-2-kleine-doelen.svg?t=1043"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/44163",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-41003",
-    "title": "2+k tegen 2+k met 2 neutrale",
-    "objective": "Verdedigen van dieptespel verbeteren",
-    "ageGroup": [
-      "O18 & O19"
-    ],
-    "playerCount": {
-      "min": 8,
-      "max": 8
-    },
-    "fieldDimensions": {
-      "length": 30,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Zonder overtredingen te maken een doelpunt voorkomen\n\nDruk op de bal en op het juiste moment veroveren\n\nTegenstander overnemen van een medespeler",
-    "purpose": [
-      "Zonder overtredingen te maken een doelpunt voorkomen",
-      "Druk op de bal en op het juiste moment veroveren",
-      "Tegenstander overnemen van een medespeler"
-    ],
-    "gameRules": [
-      "Beide teams scoren op een groot doel met keeper",
-      "De twee neutrale spelers horen bij de balbezittende partij",
-      "Als de bal uit is, start de keeper van de balbezittende partij met de bal",
-      "Na verloop van tijd, wisselen van neutrale spelers"
-    ],
-    "coachingPoints": [
-      "Communiceren met medespeler over moment van loslaten",
-      "Oog in oog met tegenstander blijven"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld smaller en/of korter maken",
-        "Neutrale spelers mogen niet scoren",
-        "Neutrale spelers mogen de bal maximaal twee keer raken"
-      ],
-      "harder": [
-        "Veld breder en/of langer maken"
-      ]
-    },
-    "footballAction": "Verdedigen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/2keeper-tegen-2keeper-met-2-neutrale.svg?t=5952"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/41003",
-    "tags": {
-      "phaseOfPlay": "Defending",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
     "id": "rinus-37095",
     "title": "4 tegen 3 lijnvoetbal",
     "objective": "Positiespel in opbouw verbeteren",
@@ -6858,123 +5345,6 @@ window.EXERCISES_DATA = [
     "sourceUrl": "https://rinus.knvb.nl/exercise/id/37095",
     "tags": {
       "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Intermediate"
-    }
-  },
-  {
-    "id": "rinus-35545",
-    "title": "3 tegen 2 met 4 kleine doeltjes",
-    "objective": "Verdedigen van dieptespel verbeteren",
-    "ageGroup": [
-      "O10"
-    ],
-    "playerCount": {
-      "min": 5,
-      "max": 8
-    },
-    "fieldDimensions": {
-      "length": 20,
-      "width": 30,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Zonder overtredingen te maken een doelpunt voorkomen\n\nDruk op de bal en op het juiste moment veroveren\n\nVoorkomen dat de bal vooruit kan worden gedribbeld of gespeeld",
-    "purpose": [
-      "Zonder overtredingen te maken een doelpunt voorkomen",
-      "Druk op de bal en op het juiste moment veroveren",
-      "Voorkomen dat de bal vooruit kan worden gedribbeld of gespeeld"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren op twee kleine doeltjes",
-      "Als de bal uit is, indribbelen of inpassen voor de aanvallers, indribbelen voor de verdediger. 3x uit is doorwisselen",
-      "Bij een doelpunt, achterbal of hoekschop starten in het midden tussen de twee doeltjes door het drietal",
-      "(Eventueel) doorwisselen na elk doelpunt, achterbal of hoekschop",
-      "Na verloop van tijd wisselen team A en B van rol"
-    ],
-    "coachingPoints": [
-      "Niet te snel naar de tegenstander toe, behoedzaam naderen",
-      "Blijf zoveel mogelijk oog in oog met de tegenstander, draai je rug niet naar hem toe",
-      "Probeer tegenstander naar de zijkant te dwingen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld smaller en/of korter maken",
-        "Doeltjes van het tweetal dichter bij elkaar plaatsen (meer naar het midden)"
-      ],
-      "harder": [
-        "Veld breder en/of langer maken",
-        "Doeltjes van het tweetal verder uit elkaar plaatsen (meer naar buiten)",
-        "Verdedigers start halverwege het speelveld (meer ruimte en tijd)"
-      ]
-    },
-    "footballAction": "Verdedigen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/3-tegen-2-met-4-kleine-doeltjes.svg?t=5339"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/35545",
-    "tags": {
-      "phaseOfPlay": "Defending",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Intermediate"
-    }
-  },
-  {
-    "id": "rinus-36541",
-    "title": "Startvorm met 2, 3 of 4 tikkers",
-    "objective": "Verdedigen van dieptespel verbeteren",
-    "ageGroup": [
-      "O10"
-    ],
-    "playerCount": {
-      "min": 6,
-      "max": 10
-    },
-    "fieldDimensions": {
-      "length": 30,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Druk op de bal houden en op het juiste moment veroveren\n\nVoorkomen dat de bal vooruit kan worden gedribbeld of gespeeld",
-    "purpose": [
-      "Druk op de bal houden en op het juiste moment veroveren",
-      "Voorkomen dat de bal vooruit kan worden gedribbeld of gespeeld"
-    ],
-    "gameRules": [
-      "De tikkers proberen een speler te tikken met hun handen",
-      "Nadat een speler getikt is, moet hij met zijn benen gespreid stilstaan",
-      "De speler kan ‘bevrijd’ worden als er een andere speler, die niet getikt is, onder de speler doorkruipt",
-      "Na een bepaalde tijd wisselen van tikkers"
-    ],
-    "coachingPoints": [
-      "Niet te snel naar de tegenstander toe, behoedzaam naderen",
-      "Blijf zoveel mogelijk oog in oog met de tegenstander, draai je rug niet naar hem toe",
-      "Probeer tegenstander naar de zijkant te dwingen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Het veld smaller en/of korter maken",
-        "Een extra tikker toevoegen"
-      ],
-      "harder": [
-        "Het veld breder en/of langer maken",
-        "Spelen met één tikker"
-      ]
-    },
-    "footballAction": "Verdedigen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Startvorm-met-2-3-of-4-tikkers.svg?t=435"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/36541",
-    "tags": {
-      "phaseOfPlay": "Defending",
       "drillType": "Small-Sided Game",
       "difficultyLevel": "Intermediate"
     }
@@ -7089,63 +5459,6 @@ window.EXERCISES_DATA = [
     "tags": {
       "phaseOfPlay": "Attacking",
       "drillType": "Small-Sided Game",
-      "difficultyLevel": "Intermediate"
-    }
-  },
-  {
-    "id": "rinus-39681",
-    "title": "Pion dribbelspel",
-    "objective": "Positiespel in opbouw verbeteren",
-    "ageGroup": [
-      "O10"
-    ],
-    "playerCount": {
-      "min": 4,
-      "max": 4
-    },
-    "fieldDimensions": {
-      "length": 20,
-      "width": 10,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen in kansrijke positie komen\n\nMet de bal een afstand overbruggen",
-    "purpose": [
-      "Door middel van dribbelen in kansrijke positie komen",
-      "Met de bal een afstand overbruggen"
-    ],
-    "gameRules": [
-      "Spelers 1 en 3 dribbelen gelijktijdig op de middelste drie pionnen af",
-      "Hier volgt een actie om de pionnen heen",
-      "Vervolgens versnellen de spelers naar het poortje",
-      "De spelers die als eerste door het poortje gaat, wint",
-      "Vervolgens starten spelers 2 en 4 gelijktijdig"
-    ],
-    "coachingPoints": [
-      "Raak de bal zo vaak dat je hem in looptempo in de goede richting mee kan nemen",
-      "Laat de bal niet wegspringen",
-      "Buig je bovenlichaam iets over de bal heen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Poortjes breder maken"
-      ],
-      "harder": [
-        "Poortjes smaller maken",
-        "De pionnen in het midden weghalen, waardoor spelers op elkaar afdribbelen"
-      ]
-    },
-    "footballAction": "Positiespel",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Pion-dribbelspel.svg?t=4510"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/39681",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Tactical",
       "difficultyLevel": "Intermediate"
     }
   },
@@ -7502,60 +5815,6 @@ window.EXERCISES_DATA = [
     }
   },
   {
-    "id": "rinus-36345",
-    "title": "Oversteekspel (1 verdediger)",
-    "objective": "Verdedigen van één tegen één situatie verbeteren",
-    "ageGroup": [
-      "O6 & O10"
-    ],
-    "playerCount": {
-      "min": 4,
-      "max": 20
-    },
-    "fieldDimensions": {
-      "length": 30,
-      "width": 20,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Druk op de bal houden en op het juiste moment veroveren\n\nPoging doen om de bal te veroveren",
-    "purpose": [
-      "Druk op de bal houden en op het juiste moment veroveren",
-      "Poging doen om de bal te veroveren"
-    ],
-    "gameRules": [
-      "Zes spelers starten gelijktijdig met dribbelen naar de overzijde",
-      "De verdediger probeert de bal af te pakken, lukt dat, krijgt hij één punt",
-      "Als de spelers aan de overzijde gekomen zijn, hebben ze één punt en kunnen ze via het slootje weer terug dribbelen"
-    ],
-    "coachingPoints": [
-      "Tussen de bal en het doel zien te komen",
-      "Zet (snel) druk vooruit"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld smaller maken",
-        "Maximaal vier spelers mogen gelijktijdig dribbelen naar de overzijde"
-      ],
-      "harder": [
-        "Veld breder maken"
-      ]
-    },
-    "footballAction": "Verdedigen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/Oversteekspel-1-verdediger2.svg?t=1357"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/36345",
-    "tags": {
-      "phaseOfPlay": "Defending",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
     "id": "rinus-45453",
     "title": "2 tegen 2 met kaatsers",
     "objective": "Positiespel in opbouw verbeteren",
@@ -7769,177 +6028,6 @@ window.EXERCISES_DATA = [
       "videos": []
     },
     "sourceUrl": "https://rinus.knvb.nl/exercise/id/35311",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Tactical",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-1241265",
-    "title": "3 tegen 3 lijnvoetbal",
-    "objective": "Uitspelen van één tegen één situatie verbeteren",
-    "ageGroup": [
-      "O8 & O9"
-    ],
-    "playerCount": {
-      "min": 6,
-      "max": 6
-    },
-    "fieldDimensions": {
-      "length": 20,
-      "width": 30,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nMet de bal een afstand overbruggen",
-    "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "Met de bal een afstand overbruggen"
-    ],
-    "gameRules": [
-      "Beide teams kunnen scoren door de bal over de achterlijn van de tegenpartij te dribbelen en de bal te controleren in het vak",
-      "Als de bal uit is, indribbelen",
-      "(Eventueel) meerdere keren uitzetten"
-    ],
-    "coachingPoints": [
-      "Raak de bal zo vaak dat je hem in looptempo in de goede richting mee kan nemen",
-      "Laat de bal niet wegspringen",
-      "Buig je bovenlichaam iets over de bal heen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken",
-        "Scoringsvak kleiner maken"
-      ]
-    },
-    "footballAction": "Uitspelen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/3-tegen-3-lijnvoetbal.svg?t=4215"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/1241265",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-41923",
-    "title": "1 tegen 1 frontaal",
-    "objective": "Uitspelen van één tegen één situatie verbeteren",
-    "ageGroup": [
-      "O8 & O9"
-    ],
-    "playerCount": {
-      "min": 6,
-      "max": 6
-    },
-    "fieldDimensions": {
-      "length": 20,
-      "width": 10,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen in kansrijke positie komen\n\nMet de bal een afstand overbruggen",
-    "purpose": [
-      "Door middel van dribbelen in kansrijke positie komen",
-      "Met de bal een afstand overbruggen"
-    ],
-    "gameRules": [
-      "De verdediger start met een pass naar de aanvaller",
-      "De aanvaller scoort op het kleine doeltje, de verdediger kan scoren op de twee kleine doeltjes",
-      "Als de bal uit is, start er een nieuwe aanvaller tegen een nieuwe verdediger",
-      "De aanvaller wordt de verdediger en andersom",
-      "Punten bijhouden; wie scoort als eerste 5 punten?"
-    ],
-    "coachingPoints": [
-      "Raak de bal zo vaak dat je hem in looptempo in de goede richting mee kan nemen",
-      "Laat de bal niet wegspringen",
-      "Buig je bovenlichaam iets over de bal heen"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken"
-      ],
-      "harder": [
-        "Veld smaller maken",
-        "Twee punten toekennen voor een doelpunt van de verdediger"
-      ]
-    },
-    "footballAction": "Uitspelen",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/1-tegen-1-frontaal.svg?t=2659"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/41923",
-    "tags": {
-      "phaseOfPlay": "Attacking",
-      "drillType": "Small-Sided Game",
-      "difficultyLevel": "Advanced"
-    }
-  },
-  {
-    "id": "rinus-44937",
-    "title": "2 tegen 1+K verdedigen op lijn",
-    "objective": "Positiespel in opbouw verbeteren",
-    "ageGroup": [
-      "O8 & O9"
-    ],
-    "playerCount": {
-      "min": 4,
-      "max": 6
-    },
-    "fieldDimensions": {
-      "length": 25,
-      "width": 10,
-      "unit": "meter"
-    },
-    "durationMinutes": 15,
-    "description": "Door middel van dribbelen of passen in kansrijke positie komen\n\nDe bal verplaatsen naar een medespeler",
-    "purpose": [
-      "Door middel van dribbelen of passen in kansrijke positie komen",
-      "De bal verplaatsen naar een medespeler"
-    ],
-    "gameRules": [
-      "Aanvallers dribbelen het veld in en spelen 2 tegen 1 tegen de verdediger",
-      "De verdediger mag alleen verdediger op de lijn",
-      "Als de aanvallers de verdediger hebben uitgespeeld kunnen zij scoren op een groot doel met keeper",
-      "De verdediger scoort een punt door de bal te controleren of buiten het veldje te schieten",
-      "Na drie onderscheppingen wisselen van verdediger"
-    ],
-    "coachingPoints": [
-      "Kies goed positie ten opzichte van de bal",
-      "Standbeen licht gebogen",
-      "Voet wijst meestal in de speelrichting"
-    ],
-    "difficultySteps": {
-      "easier": [
-        "Veld breder en/of langer maken",
-        "Lijn breder maken"
-      ],
-      "harder": [
-        "Veld smaller en/of korter maken",
-        "Lijn smaller maken",
-        "Scoren binnen een tijdslimiet"
-      ]
-    },
-    "footballAction": "Positiespel",
-    "media": {
-      "images": [
-        "https://cdn-rinusha-prod-001.azureedge.net/images/exercise/svg/2-tegen-1Keeper-verdedigen-op-lijn.svg?t=1042"
-      ],
-      "videos": []
-    },
-    "sourceUrl": "https://rinus.knvb.nl/exercise/id/44937",
     "tags": {
       "phaseOfPlay": "Attacking",
       "drillType": "Tactical",
